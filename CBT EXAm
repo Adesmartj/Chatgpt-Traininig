@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CBT Exam</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    h1 {
+      margin-top: 0;
+    }
+    
+    .question {
+      margin-bottom: 20px;
+    }
+    
+    .options {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .option {
+      margin-bottom: 10px;
+    }
+    
+    .option label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .submit-btn {
+      background-color: #333;
+      border: none;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CBT Exam</h1>
+  </header>
+  
+  <main>
+    <div class="question">
+      <h2>Question 1:</h2>
+      <p>What is the capital of France?</p>
+      <ul class="options">
+        <li class="option">
+          <input type="radio" name="q1" id="q1a" value="a">
+          <label for="q1a">a) Paris</label>
+        </li>
+        <li class="option">
+          <input type="radio" name="q1" id="q1b" value="b">
+          <label for="q1b">b) Rome</label>
+        </li>
+        <li class="option">
+          <input type="radio" name="q1" id="q1c" value="c">
+          <label for="q1c">c) London</label>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="question">
+      <h2>Question 2:</h2>
+      <p>What is the capital of Japan?</p>
+      <ul class="options">
+        <li class="option">
+          <input type="radio" name="q2" id="q2a" value="a">
+          <label for="q2a">a) Beijing</label>
+        </li>
+        <li class="option">
+          <input type="radio" name="q2" id="q2b" value="b">
+          <label for="q2b">b) Tokyo</label>
+        </li>
+        <li class="option">
+          <input type="radio" name="q2" id="q2c" value="c">
+          <label for="q2c">c) Seoul</label>
+        </li>
+      </ul>
+    </div>
+    
+    <button class="submit-btn">Submit</button>
+  </main>
+</body>
+</html>
